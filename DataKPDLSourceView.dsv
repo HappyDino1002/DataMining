@@ -1,0 +1,182 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="95a34fc5-bda1-420a-abcd-a9e804c1aa89" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DataKPDLSourceView</ID>
+  <Name>DataKPDLSourceView</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DataKPDL</DataSourceID>
+  <Schema>
+    <xs:schema id="DataKPDLSourceView" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="DataKPDLSourceView" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="d896cd39-771a-4173-a0ae-0191e0c7d49a">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DataKPDL_x0024_" msprop:design-time-name="e660ef86-fab5-496d-a020-4f4d020e4d43" msprop:DbTableName="DataKPDL$" msprop:FriendlyName="DataKPDL$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:design-time-name="2536a07c-20c1-4289-873b-5bd4c392262b" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:double" minOccurs="0" />
+                  <xs:element name="Phan_x0020_hoi" msprop:design-time-name="8874b0af-2b71-4eb8-a282-eee46561fd98" msprop:DbColumnName="Phan hoi" msprop:FriendlyName="Phan hoi" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ngay" msprop:design-time-name="ca95929c-d78d-4927-a24d-d571b6a2172f" msprop:DbColumnName="ngay" msprop:FriendlyName="ngay" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="thang" msprop:design-time-name="ac3abb01-7137-457c-b1ed-1561df1137b7" msprop:DbColumnName="thang" msprop:FriendlyName="thang" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Khoang_x0020_thoi_x0020_gian_x0020_tu_x0020_van_x0020__x0028__x0020_gio_x0029_" msprop:design-time-name="afac963f-cc1d-4fe6-bfaa-b2e63f935dcb" msprop:DbColumnName="Khoang thoi gian tu van ( gio)" msprop:FriendlyName="Khoang thoi gian tu van ( gio)" type="xs:double" minOccurs="0" />
+                  <xs:element name="Ma_x0020_lien_x0020_lac" msprop:design-time-name="a89a0155-f6b3-46e3-a68a-014f3f672d79" msprop:DbColumnName="Ma lien lac" msprop:FriendlyName="Ma lien lac" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Tuoi" msprop:design-time-name="7e2660fd-332f-4f1c-a809-956dff407e50" msprop:DbColumnName="Tuoi" msprop:FriendlyName="Tuoi" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Gioitinh" msprop:design-time-name="09b246cb-dd0f-4e66-ad3e-bc714e708534" msprop:DbColumnName="Gioitinh" msprop:FriendlyName="Gioitinh" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Vieclam" msprop:design-time-name="649b6f26-ee47-402d-a61e-4365f2212b34" msprop:DbColumnName="Vieclam" msprop:FriendlyName="Vieclam" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Loainha" msprop:design-time-name="49bc605c-2ef6-4b19-9920-428ba3782dd0" msprop:DbColumnName="Loainha" msprop:FriendlyName="Loainha" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kich_x0020_thuoc_x0020_nha" msprop:design-time-name="0f434c7b-1332-4f22-b672-c736d97f5fdc" msprop:DbColumnName="kich thuoc nha" msprop:FriendlyName="kich thuoc nha" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Gia_x0020_" msprop:design-time-name="b803fa7b-42f1-41a7-9c39-5ed1c8ee7596" msprop:DbColumnName="Gia " msprop:FriendlyName="Gia " minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Trangthaihonnhan" msprop:design-time-name="d6b24673-2fa9-4fe4-a977-5ceab3295924" msprop:DbColumnName="Trangthaihonnhan" msprop:FriendlyName="Trangthaihonnhan" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="HocVan" msprop:design-time-name="6a04ca59-246e-4d46-a72f-1f516e3eb9e9" msprop:DbColumnName="HocVan" msprop:FriendlyName="HocVan" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Tre_x0020_han_x0020_thanh_x0020_toan_x0020_tin_x0020_dung" msprop:design-time-name="3f81f364-018d-4474-af6a-adb356deed40" msprop:DbColumnName="Tre han thanh toan tin dung" msprop:FriendlyName="Tre han thanh toan tin dung" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Sodunganhang" msprop:design-time-name="b325bcf5-d154-4af5-842d-ac05899f41f1" msprop:DbColumnName="Sodunganhang" msprop:FriendlyName="Sodunganhang" type="xs:double" minOccurs="0" />
+                  <xs:element name="Sohuunha" msprop:design-time-name="1d42e80b-ef6b-45b2-a485-02aaaa3766ef" msprop:DbColumnName="Sohuunha" msprop:FriendlyName="Sohuunha" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Khoan_x0020_vay" msprop:design-time-name="b8ca2102-5dad-4093-80df-28512e3ad0cb" msprop:DbColumnName="Khoan vay" msprop:FriendlyName="Khoan vay" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Phuongthuclienlac" msprop:design-time-name="76698c08-7948-4553-9e93-69199e03d5af" msprop:DbColumnName="Phuongthuclienlac" msprop:FriendlyName="Phuongthuclienlac" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Kha_x0020_nang_x0020_mua" msprop:design-time-name="5f32f253-c2b9-4e6b-984a-7dc74adf2090" msprop:DbColumnName="Kha nang mua" msprop:FriendlyName="Kha nang mua" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <DataKPDLSourceView xmlns="" />
+  </Schema>
+</DataSourceView>

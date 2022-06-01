@@ -1,0 +1,39 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Data KPDL</Id>
+            <Name>Data KPDL</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALGkGJKgtLUiC9d4PPFMF3AAAAAAUAAAARABhAHQAYQAgAEsAUABEAEwAAAAQZgAAAAEAACAAAAAYEGR95ehFtBj5a4MGOLhngHGQTCvBHwalFmjIjpqANQAAAAAOgAAAAAIAACAAAAAJ/pS7wonBOkrQMsr+rHWSJ4qfIMxggdppGFfaOxHwQxAAAADGkj5U3uOPsqR+JEx453FPQAAAAAgvtYvwbXh4fI3F7mcfu6vFOodO2sJMpSzbNBmu9oRJwNZc03Dg5G0ngamPOAv/r8838s/Xxwv2tdSPfhYBg50=</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DataKPDL</Id>
+            <Name>DataKPDL</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALGkGJKgtLUiC9d4PPFMF3AAAAAASAAAARABhAHQAYQBLAFAARABMAAAAEGYAAAABAAAgAAAAP38vuk8L7c85A9KnWJbaEt5ZFR1cTBJ2K++T8sI/FXIAAAAADoAAAAACAAAgAAAAfIuNsgSXlnDzwlD2ckIbY0/bmfWKzPl7230+N3+aJnAQAAAAYJW40sE+IfQhkH9CEEJMQ0AAAADBQ9PoQ82/Bcjr7xIgVnJPi84R7gj3t7m1d6gAe1nRGjop9dXQ67P3lbQ63SRLwJhMoup5uFPkW+/TLG5PKpRv</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Data KPDL</Id>
+            <Name>Data KPDL</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALGkGJKgtLUiC9d4PPFMF3AAAAAAUAAAARABhAHQAYQAgAEsAUABEAEwAAAAQZgAAAAEAACAAAADRuQrpY2v3F9yy1AQOq+UCyBUNkxjaCdKT/L+y7jsHgQAAAAAOgAAAAAIAACAAAAA5bzNmuE6G4ud8rFicy+EY36Wd+4CQ+4tI0LiyHSgdfxAAAAAaW8Z0xIlSsthkeBEMMl6RQAAAAGd7+JU0arFmKGIDFg+yFYg+Cpj6meIFuFvJredIXR5eO3NLRzNI5pwXoxHhNraanxVOb25hJR7YcymPIweg71c=</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DataKPDL</Id>
+            <Name>DataKPDL</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALGkGJKgtLUiC9d4PPFMF3AAAAAASAAAARABhAHQAYQBLAFAARABMAAAAEGYAAAABAAAgAAAAGYoM9zyTs8s9i0tvBbM6gHbQ9XlsSvsnvsu+6EMCZ0oAAAAADoAAAAACAAAgAAAAapRGvQhO6SWFEpyjwf+ZnDuAJTS4gCsTc07iWKa4ORoQAAAA0b981lztjWqZyDMOP7nqNkAAAAC+pYg7fU4MUkd8MxSN4S67M+4leJNwBEl4s7WUp0U7TNSNuLdRKEBada4hp5R9guJd1ZKZtfLcF2L7ShyI+kXg</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>DESKTOP-F9I8SJ4\SQLDEV</TargetServer>
+        <TargetDatabase>KPDL</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

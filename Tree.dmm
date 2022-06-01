@@ -1,0 +1,244 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bff97d39-1822-4cea-b3a7-2930526865cd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Tree</ID>
+  <Name>Tree</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_DataKPDL$</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3398" scrolltop="-5215" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="25993" y="15431" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DataKPDL$" left="-2541" top="-4593" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5356" height="8027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000ec1400005b1f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DataKPDL$" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3398</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5215</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-2541</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-4593</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6f5e934c-9975-4e0f-842e-1b2858622f63">
+    <DataSourceViewID>DataKPDLSourceView</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="a383bfda-8302-4bb9-ba3e-681a0eb17dc7">
+      <ID>Id</ID>
+      <Name>Id</Name>
+      <IsKey>true</IsKey>
+      <Type>Double</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9af16d91-fa23-4d8a-a827-b1b5045720dd">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="76534b59-d733-42ba-873a-11cd0f02c55a">
+            <TableID>dbo_DataKPDL_x0024_</TableID>
+            <ColumnID>id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="4457419a-7839-415e-b843-9d9e7b846ba3">
+      <ID>Kha Nang Mua</ID>
+      <Name>Kha Nang Mua</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d34b7712-f260-47c7-a9b2-d54a636b56cd">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7a73e407-ca1a-423d-8d4d-25c4115553bc">
+            <TableID>dbo_DataKPDL_x0024_</TableID>
+            <ColumnID>Kha_x0020_nang_x0020_mua</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="4fad3211-9ae3-468e-8d57-0cf0f3445577">
+      <ID>Phan Hoi</ID>
+      <Name>Phan Hoi</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8f3bdd0a-34e9-4d13-bda5-26d51ade9947">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="584f4c06-ed3f-4bf7-b047-14279229dad3">
+            <TableID>dbo_DataKPDL_x0024_</TableID>
+            <ColumnID>Phan_x0020_hoi</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="26103b0b-60f0-4ee0-a889-ded4e5fcd0df">
+      <ID>Phuongthuclienlac</ID>
+      <Name>Phuongthuclienlac</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f2541dff-55c4-4b27-b7b9-207555db41d9">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c20942ea-2ca5-44cc-a1f8-bfb2c4d1958f">
+            <TableID>dbo_DataKPDL_x0024_</TableID>
+            <ColumnID>Phuongthuclienlac</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="972576b0-9511-4659-8a7f-ba974d1ff3b2">
+      <ID>Sohuunha</ID>
+      <Name>Sohuunha</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="13f5aa0b-9524-4133-a0e5-be87d93110a1">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="62375166-f208-43f1-955e-b69353f7cb88">
+            <TableID>dbo_DataKPDL_x0024_</TableID>
+            <ColumnID>Sohuunha</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="75f3fe06-7b0f-4df6-adb9-f87a46254265">
+      <ID>Trangthaihonnhan</ID>
+      <Name>Trangthaihonnhan</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="caa78179-0a1f-403e-805e-61d65e5eabbe">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="349793ac-4b69-456c-b841-258fc7a47763">
+            <TableID>dbo_DataKPDL_x0024_</TableID>
+            <ColumnID>Trangthaihonnhan</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="db79c5bd-0bf3-4838-a8ad-82a561838736">
+      <ID>Vieclam</ID>
+      <Name>Vieclam</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="67487c15-ef7a-476a-ac65-7274c5219275">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="334e528e-5994-47ee-ad40-2dd1be6181b4">
+            <TableID>dbo_DataKPDL_x0024_</TableID>
+            <ColumnID>Vieclam</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="b21a5c05-62a8-49e8-babb-1d56f434e833">
+      <ID>Tree</ID>
+      <Name>Tree</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Decision_Trees</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="392fb601-8cb4-4b20-b277-6954d695ff74">
+          <ID>Id</ID>
+          <Name>Id</Name>
+          <SourceColumnID>Id</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="4b8e3ac2-5f40-4ee9-a28c-ba8159582eea">
+          <ID>Kha Nang Mua</ID>
+          <Name>Kha Nang Mua</Name>
+          <SourceColumnID>Kha Nang Mua</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="a4166a6d-91b4-4e87-a3cf-e5b4e5d53991">
+          <ID>Phan Hoi</ID>
+          <Name>Phan Hoi</Name>
+          <SourceColumnID>Phan Hoi</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="fc4f785a-5300-4893-aa48-f0d1cebed09c">
+          <ID>Phuongthuclienlac</ID>
+          <Name>Phuongthuclienlac</Name>
+          <SourceColumnID>Phuongthuclienlac</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="1bd96574-1ede-4415-977e-e7a0fdf1dbc2">
+          <ID>Sohuunha</ID>
+          <Name>Sohuunha</Name>
+          <SourceColumnID>Sohuunha</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="31f0d038-b956-4f62-8dfa-84f5d66eb83a">
+          <ID>Trangthaihonnhan</ID>
+          <Name>Trangthaihonnhan</Name>
+          <SourceColumnID>Trangthaihonnhan</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="1b41a8ba-3ea4-4aa2-8d2e-dc4a752f9651">
+          <ID>Vieclam</ID>
+          <Name>Vieclam</Name>
+          <SourceColumnID>Vieclam</SourceColumnID>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>50</ddl100_100:HoldoutMaxPercent>
+</MiningStructure>
